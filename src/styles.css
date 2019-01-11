@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+html,
+body,
+.App,
+#root,
+.carousel {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
+#App {
+  position: relative;
+}
+img {
+  height: 100%;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+button {
+  padding: 1rem 2rem;
+  margin: 1rem;
+  background-color: #9acd32;
+}
+.btn-container,
+.title {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.title {
+  margin-top: 5rem;
+  z-index: 1;
+}
